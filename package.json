@@ -1,0 +1,17 @@
+{
+  "name": "reedsy",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "cd server && npm test",
+    "install-package-web": "cd web && npm install",
+    "install-package-api": "cd server && npm install",
+    "start-web": "cd web && npm run serve",
+    "start-api": "cd server && node src/index",
+    "install": "concurrently \"npm run install-package-api\" \"npm run install-package-web\"",
+    "start": "concurrently \"npm run start-api\" \"npm run start-web\""
+  },
+  "dependencies": {
+    "concurrently": "^5.1.0"
+  }
+}

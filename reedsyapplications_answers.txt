@@ -1,0 +1,39 @@
+1. About you
+
+I got a chance to use Angular 2 when I worked at Huawei company. 
+My role was front-end web development for SmartTVs and android STBs via Angular 2, TypeScript technologies.
+http://www.huawei.com/ilink/en/download/HW_072420
+
+I am a full-stack developer at Eureko Insurance company and mainly use C# and vue.js for web development. 
+I worked at web site development project with using vue.js, project live link is https://www.eurekosigorta.com.tr/
+
+2. General
+
+	2.1 I prefer to work at the Single Page Application. 
+It is good for making Responsive Websites, Support mobile, Tablet & Desktop. 
+Because of it's User-friendly, high-performance. 
+It is a good chance for a developer to get new things to improve performance in many ways.
+
+	2.2 My favorite feature of HTML-5 is a video tag. 
+At Huawei company, we developed a web-based portal platform to provide video content to the end-users. 
+We worked at TV systems and PC to test the streaming quality. 
+At PC the easiest way was the HTML5 video tag and primitive web page.
+
+	2.3 It is a matter of choosing between code readability or performance. 
+In general, innerHTML is slower than createElement, because, with innerHTML, the browser needs to parse the input string, create objects for elements/text and then add them into the DOM. 
+createElement on the other hand only accepts objects. So the browser doesn't need to do any string parsing and object creation.
+
+InnerHTML can be more readable if createElement can not be used as atomic design object assignments can be huge and complicated.
+
+	2.4 Two way data binding means that UI fields are bound to model data dynamically such that when a UI field changes, the model data changes with it and vice-versa. 
+Ex framework React
+
+One way data flow means that the model is the single source of truth. 
+Ex framework Angular
+
+2.5 With asynchronous programming the engine runs in an event loop. 
+Developers do not want to block JavaScript main thread but we want to be notified when our asynchronous operation is done so, that is where we use asynchronous programming concepts. 
+This is important in JavaScript, because it is a very natural fit for user interface code, and very beneficial to performance on the server.
+
+3. Styling - attached with zipped project file
+4. SPA - attached with zipped project file 

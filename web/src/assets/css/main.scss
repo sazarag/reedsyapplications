@@ -1,0 +1,60 @@
+$pageBackgroundColor: #faf9f4;
+$pageShadowColor: #2c3e50;
+$pageBorderColor: #949292;
+
+$mainBackgroundColor: #ffffff;
+$mainShadowColor: #c8c8c8;
+
+body {
+  margin: 0;
+}
+
+.q3 {
+    background-color: $pageBackgroundColor;
+    
+    -webkit-box-shadow: 0 1em 3em 0 rgba(20, 94, 151, 0.15);
+    box-shadow: 0 1em 3em 0 $pageShadowColor;
+    width: 90%;
+    margin-bottom: calc(5%);    
+    
+    display: inline-block;
+    -webkit-border-bottom-right-radius: 1em;
+    -webkit-border-bottom-left-radius: 1em;
+    -moz-border-radius-bottomright: 1em;
+    -moz-border-radius-bottomleft: 1em;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border: 1px solid $pageBorderColor;
+    border-top: none;
+    .main {
+      background-color: $mainBackgroundColor;
+      
+      width: 80%;
+      display: inline-block;
+      -webkit-border-top-right-radius: 1em;
+      -webkit-border-top-left-radius: 1em;
+      -moz-border-radius-topright: 1em;
+      -moz-border-radius-topleft: 1em;
+      border-top-right-radius: 1em;
+      border-top-left-radius: 1em;
+      
+      box-shadow: 0 0em 0.5em 0 $mainShadowColor;
+
+      .container{
+        h1{
+          float: left;
+          font-size: 2.5em;
+          padding: 0em 1em;
+          display: inline-flex;
+          width: 100%;
+        }
+        .featured-book {
+          background-color: $pageBackgroundColor;
+          border-radius: 0;
+          overflow: hidden;
+          position: relative;
+          width: 100%;
+        }
+      }
+    }
+  }
